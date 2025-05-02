@@ -1,26 +1,66 @@
+html {
 font-family: Arial, Verdana, sans-serif;
-				color: #665544;
+				color: #141B07;
 				text-align: center;}
+
 			body {
 				width: 90%;
-				margin: 0 auto;}
+				margin: 0 auto;
+background-image: url("https://www.startpage.com/av/proxy-image?piurl=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.ybrCtYYRkoyMyQh1c8UObgHaEK%26pid%3DApi&sp=1746165864Ta14fab2721e8d3023caf8b882a7a9f2b919c4515abcc665999ef2d3b1aacf739");
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: 100% 100%;
+
+h1 {
+  font-family: 'DinKursivschriftBreit', Arial, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  color:white;
+  font-size: 42px;
+}
+
 			#content {
 				overflow: auto;}
+
 			#nav, #feature, #footer {
 				margin: 1%;}
+
 			.column1, .column2, .column3 {
 				width: 31.3%;
 				float: left;
 				margin: 1%;}
+
 			.column3 {
 				margin-right: 0%;}
+
+
 			li {
 				display: inline;
 				padding: 0.5em;}
+
 			#nav, #footer {
 				background-color: #efefef;
 				padding: 0.5em 0;}
+
 			#feature, .article {
 				height: 10em;
 				margin-bottom: 1em;
 				background-color: #efefef;}
+
+#nav {
+    background-color: #D0DEB6;}
+
+#feature {
+  background-color: #D2A3F8;}  
+
+			.column1 {
+  background-color: #88AD86;}
+
+			.column2 {
+  background-color: #6DA091;}
+
+			.column3 {
+  background-color: #89C486;}
+
+#footer {
+  background-color: #D0DEB6;}
