@@ -51,7 +51,11 @@ h1 {
     background-color: #D0DEB6;}
 
 #feature {
-  background-color: #D2A3F8;}  
+  background-color: #D2A3F8;
+background-image: url("circle.png");
+ background-size:contain;
+ background-position: right;
+ background-repeat:no-repeat;}  
 
 			.column1 {
   background-color: #88AD86;}
