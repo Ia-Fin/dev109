@@ -6,7 +6,7 @@ font-family: Arial, Verdana, sans-serif;
 			body {
 				width: 90%;
 				margin: 0 auto;
-background-image: url("simple_color_splash.jpg");
+background-image: url("../simple_color_splash.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed; 
   background-size: 100% 100%;
@@ -52,7 +52,7 @@ h1 {
 
 #feature {
   background-color: #D2A3F8;
-background-image: url("circle.png");
+background-image: url("../circle.png");
  background-size:contain;
  background-position: right;
  background-repeat:no-repeat;}  
