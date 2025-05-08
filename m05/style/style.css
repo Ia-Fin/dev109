@@ -1,13 +1,14 @@
 @import url(http://fonts.googleapis.com/css?family=Wellfleet);
 
-body {
+body { /* Setting details for the body */
 	background-color: #523620;
 	color: #fff;
 	font-family: 'Wellfleet', times, serif;
 	font-size: 150%;
-	margin: 0px 0px 0px 0px;}
+	margin: 0px 0px 0px 0px;
+}
 
-h1 {
+h1 { /* Adding the Bullseye logo to the page */
 	background-image: url('../images/bullseye-logo.png');
 	background-repeat: no-repeat;
 	text-indent: 100%;
@@ -15,28 +16,22 @@ h1 {
 	overflow: hidden;
 	height: 109px;
 	width: 643px;
-	margin: 40px auto;}
+	margin: 40px auto;
+}
 
-#teacher {
+#teacher { /* Setting margins and floats for the teacher image */
 	float:right;
-	margin:135px 30px 0px 0px;}
+	margin:135px 30px 0px 0px;
+}
 
-#page {
+#page { /* defaults for the inner page and elements within it */
 	background-color: #fecc6f;
 	height: 730px;
 	padding: 10px;
-	min-width: 779px;}
+	min-width: 779px;
+}
 
-#answer {
-	border: 12px double #fff;
-	color: #523620;
-	text-align: left;
-	padding: 20px;
-	margin: 70px auto 10px auto;
-	width: 250px;
-	text-align: center;}
-
-#blackboard {
+#blackboard { /* defaults for the blackboard where the calculation results are shown */
 	background-color: #425a5a;
 	border: 25px solid #523620;
 	border-radius: 20px;
@@ -44,4 +39,5 @@ h1 {
 	margin: 0px auto;
 	height: 370px;
 	width: 600px;
-	text-align: center;}
+	text-align: center;
+}
