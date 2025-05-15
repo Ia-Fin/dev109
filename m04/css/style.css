@@ -1,7 +1,8 @@
 html {
 	font-family: Arial, Verdana, sans-serif;
 	color: #141B07;
-	text-align: center;}
+	text-align: center;
+}
 
 body {
 	width: 90%;
@@ -10,57 +11,70 @@ body {
 	background-repeat: no-repeat;
 	background-attachment: fixed; 
 	background-size: 100% 100%;
-	
-	h1 {
-		font-family: 'DinKursivschriftBreit', Arial, sans-serif;
-		font-weight: normal;
-		font-style: normal;
-		color:white;
-		font-size: 42px;
-	}
-	
-	#content {
-		overflow: auto;}
-	
-	#nav, #feature, #footer {
-		margin: 1%;}
-	
-	.column1, .column2, .column3 {
-		width: 31.3%;
-		float: left;
-		margin: 1%;}
-	
-	li {
-		display: inline;
-		padding: 0.5em;}
-	
-	#nav, #footer {
-		padding: 0.5em 0;}
-	
-	#feature, .article {
-		height: 10em;
-		margin-bottom: 1em;
-		background-color: #efefef;}
-	
-	#nav {
-		background-color: #D0DEB6;}
-		
-	#feature {
-		background-color: #D2A3F8;
-		background-image: url("../circle.png");
-		background-size:contain;
-		background-position: right;
-		background-repeat:no-repeat;}  
+}	
 
-	.column1 {
-		background-color: #88AD86;}
-	
-	.column2 {
-		background-color: #6DA091;}
-	
-	.column3 {
-		background-color: #89C486;
-		margin-right: 0%;}
+h1 {
+	font-family: 'DinKursivschriftBreit', Arial, sans-serif;
+	font-weight: normal;
+	font-style: normal;
+	color:white;
+	font-size: 42px;
+}
 
-	#footer {
-		background-color: #Bfefef;}
+#content {
+	overflow: auto;
+}
+
+#nav, #feature, #footer {
+	margin: 1%;
+}
+
+.column1, .column2, .column3 {
+	width: 31.3%;
+	float: left;
+	margin: 1%;
+}
+
+li {
+	display: inline;
+	padding: 0.5em;
+}
+
+#nav, #footer {
+	padding: 0.5em 0;
+}
+
+#feature, .article {
+	height: 10em;
+	margin-bottom: 1em;
+	background-color: #efefef;
+}
+
+#nav {
+	background-color: #D0DEB6;
+}
+
+#feature {
+	background-color: #D2A3F8;
+	background-image: url("../circle.png");
+	background-size:contain;
+	background-position: right;
+	background-repeat:no-repeat;
+}  
+
+.column1 {
+	background-color: #88AD86;
+}
+
+.column2 {
+	background-color: #6DA091;
+}
+
+.column3 {
+	background-color: #89C486;
+	margin-right: 0%;
+}
+
+#footer {
+	background-color: #Bfefef;
+}
