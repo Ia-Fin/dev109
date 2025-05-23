@@ -1,1 +1,56 @@
-
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="description" content="Week 6 - BC - Rhombus">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Rhombus - Ian Finley</title>
+	</head>
+	<body>
+		<heading>
+			<h1>Rhombus - Ian Finley</h1>
+		</heading>
+		<label>What is the size of Rhombus?</label><br>
+		<input type="text" id="rHeight" value="10" size="10">
+		<br>
+		<label>Choose color for Even position</label><br>
+		<select id="colorEven">
+			<option value="#54D6C8">Teal</option>
+			<option value="#00005F">Dark Blue</option>
+			<option value="#5CBD00">Forest Green</option>
+		</select><br>
+		
+		<label>Choose color for Odd position</label><br>
+		<select id="colorOdd">
+			<option value="#336300">Dark Green</option>
+			<option value="#B99A00">Brown</option>
+			<option value="#EED73E">Yellow</option>
+		</select>
+		<br>
+		<label>Choose symbol for Rhombus</label>
+		<select id="symbol">
+			<option value="☻">☻</option>
+			<option value="♦">♦</option>
+			<option value="☼">☼</option>
+		</select>
+		<br>
+		<button onclick="createRhombus(document.getElementById('rHeight').value,
+		document.getElementById('colorEven').value,
+		document.getElementById('colorOdd').value,
+		document.getElementById('symbol').value);">Display Rhombus</button>
+		<div style="overflow-x: auto; white-space: nowrap;">
+			<!-- Top -->
+			<div style="display: flex; flex-wrap: nowrap;">
+				<div id="upLeft" style="flex: 1; text-align: right; white-space: nowrap;"></div>
+				<div id="upRight" style="flex: 1; white-space: nowrap;"></div>
+			</div>
+			<!-- Bottom -->
+			<div style="display: flex; flex-wrap: nowrap;">
+				<div id="downLeft" style="flex: 1; text-align: right; white-space: nowrap;"></div>
+				<div id="downRight" style="flex: 1; white-space: nowrap;"></div>
+			</div>
+			
+		</div>
+		<script src="rhombus.js"></script>
+	</body>
+</html>
