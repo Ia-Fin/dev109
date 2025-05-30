@@ -1,13 +1,13 @@
-// From https://javascriptbook.com/code/c03/multiple-objects.html per instructions.
+// From https://javascriptbook.com/code/c03/multiple-objects.html per instructions
 
 // Create the template for objects that are hotels
 function Hotel(name, rooms, booked) {
-  this.name = name;
-  this.rooms = rooms;
-  this.booked = booked;
-  this.checkAvailability = function() {
-    return this.rooms - this.booked;
-  };
+    this.name = name;
+    this.rooms = rooms;
+    this.booked = booked;
+    this.checkAvailability = function() {
+        return this.rooms - this.booked;
+    };
 }
 
 
@@ -19,17 +19,17 @@ var sunsetHotel = new Hotel('Sunset', 86, 10); //Created a new hotel using the t
 
 // Update the HTML for the page
 var details1 = quayHotel.name + ' rooms: ';
-    details1 += quayHotel.checkAvailability();
+details1 += quayHotel.checkAvailability();
 var elHotel1 = document.getElementById('hotel1');
 elHotel1.textContent = details1;
 
 var details2 = parkHotel.name + ' rooms: ';
-    details2 += parkHotel.checkAvailability();
+details2 += parkHotel.checkAvailability();
 var elHotel2 = document.getElementById('hotel2');
 elHotel2.textContent = details2;
 
-var details3 = sunsetHotel.name + ' rooms: '; //Declaring the variable to list the hotel name (Sunset), followed by "rooms: ". 
-    details3 += sunsetHotel.checkAvailability(); //Performs the method to checkAvailability before adding the result to the line after "Sunset Rooms: ".
+var details3 = sunsetHotel.name + ' rooms: '; //Declaring the variable to list the hotel name, followed by "rooms: ". 
+details3 += sunsetHotel.checkAvailability(); //Performs the method to checkAvailability before adding the result to the line.
 var elHotel3 = document.getElementById('hotel3'); //retrieves the element hotel3 from the index.html page.
 elHotel3.textContent = details3; //Injects the details3 variable into the hotel3 div.
 
