@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f3f6f9;
+    background-color: #4D587A;
     margin: 2em;
 }
 
@@ -28,4 +28,6 @@ input, select, textarea {
     width: 97%;
     padding: 0.5em;
     margin-top: 0.3em;
+    max-width: 545px;
+    min-width: 545px;
 }
