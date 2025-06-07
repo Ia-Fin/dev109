@@ -50,7 +50,7 @@ function validateForm() {
     }
     document.getElementById("emailError").innerHTML = emailMessages;
 
-    // Phone
+    // Phone + EXTRA CREDIT
     var phone = document.getElementById("Phone").value.trim();
     var phoneMessages = "";
     var phonePattern = /^\d{3}-\d{3}-\d{4}$/;
@@ -78,7 +78,7 @@ function validateForm() {
     }
     document.getElementById("usernameError").innerHTML = usernameMessages;
 
-    // Password
+    // Password + EXTRA CREDIT
     var password = document.getElementById("Password").value;
     var passwordMessages = "";
     var pwPattern = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[\W_]).{1,7}$/;
