@@ -1,1 +1,30 @@
-
+<!DOCTYPE html>
+<html lang="en-US">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="JavaScript &amp; jQuery - Chapter 5: Document Object Model - Add Element">
+		<link rel="stylesheet" href="css/c05.css">
+		<title>JavaScript &amp; jQuery - Chapter 5: Document Object Model - Add Element</title>
+	</head>
+	<body>
+		<div id="page">
+			<h1 id="header">List</h1>
+			<h2>Buy groceries</h2>
+			<ul id="todo">
+				<li id="one" class="hot"><em>fresh</em> figs</li>
+				<li id="two" class="hot">pine nuts</li><li id="three" class="hot">honey</li>
+				<li id="four">balsamic vinegar</li>
+			</ul>
+			
+			<div id="input-section"> <!-- Input Section for user entry and error messaging --> 
+				<input type="text" id="itemInput" placeholder="Add a new item..."> <!-- Text Input box --> 
+				<button onclick="addItem()">Enter a grocery item</button> <!-- Button to activate the function --> 
+				<p id="message"></p> <!-- Placeholder for error messages -->
+			</div>
+			
+		</div>
+		<script src="js/add-item.js"></script>
+	</body>
+</html>
