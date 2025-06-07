@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f6f9;
+    margin: 2em;
+}
+
+form {
+    background-color: #fff;
+    padding: 2em;
+    border: 1px solid #ccc;
+    max-width: 600px;
+    margin: auto;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.warning {
+    color: red;
+    font-weight: bold;
+    margin: 0 0 1em 0;
+}
+
+label {
+    display: block;
+    margin-top: 1em;
+}
+
+input, select, textarea {
+    width: 97%;
+    padding: 0.5em;
+    margin-top: 0.3em;
+}
