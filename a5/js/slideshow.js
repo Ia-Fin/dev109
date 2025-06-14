@@ -1,10 +1,11 @@
 var myImages =["images/cube.jpg", "images/glass.jpg","images/pyramid.jpg","images/shapes.jpg","images/sphere.jpg"];
 
-var captionImages =["CUBE","GLASS","PRYAMID","SHAPES","SPHERE"];
+var captionImages =["CUBE","GLASS","PYRAMID","SHAPES","SPHERE"];
 
 var index = 0;
 var countdown = 4; // seconds
 var timerDisplay = document.getElementById("timer");
+timerDisplay.textContent = document.getElementById("auto").checked ? countdown : "--"; //Trying to force the timer to not show 4 on load with countdown unchecked.
 var intervalId = null;
 
 function updateImage() {
@@ -52,7 +53,7 @@ function resetCountdown() {
 	}
 }
 
-// Buttons
+// Bind buttons
 var nextButton = document.getElementById("next");
 var previousButton = document.getElementById("previous");
 
@@ -60,4 +61,4 @@ previousButton.addEventListener("click", back, false);
 nextButton.addEventListener("click", next, false);
 
 // Start interval timer
-intervalId = setInterval(autoSlideTick, 1000); // ticks every 1 second
+intervalId = setInterval(autoSlideTick, 1000); // ticks every second
