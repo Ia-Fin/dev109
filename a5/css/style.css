@@ -4,7 +4,11 @@ body {
 	margin: 0;
 	padding: 0;
 	background-color: black;
-	color: #e47607;
+	color: #e87900;
+}
+
+p {
+  line-height: 1.5;
 }
 
 #slideshow {
@@ -13,7 +17,7 @@ body {
 	width: 512px;
 	height: 512px;
 	object-fit: cover;
-	border: 2px solid #e47607;
+	border: 2px solid #e87900;
 	border-radius: 8px;
 }
 
@@ -34,9 +38,11 @@ button {
 	font-size: 1rem;
 	border: none;
 	border-radius: 6px;
-	background-color: #e47607;
+	background-color: #e87900;
 	color: black;
 	cursor: pointer;
+  min-width: 44px; 
+  min-height: 44px;
 	transition: background-color 0.3s;
 }
 
@@ -55,7 +61,7 @@ button:hover {
 	position: fixed;
 	top: 10px;
 	left: 10px;
-	background-color: #e47607;
+	background-color: #e87900;
   color: black;
 	padding: 5px 15px;
 	border-radius: 6px;
