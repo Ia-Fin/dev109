@@ -1,6 +1,6 @@
 var myImages =["images/cube.jpg", "images/glass.jpg","images/pyramid.jpg","images/shapes.jpg","images/sphere.jpg"];
 
-var captionImages =["CUBE","GLASS","PYRAMID","SHAPES","SPHERE"];
+var captionImages =["Abstract blue techno cubes","Abstract glass shapes","A stone pyramid in space","Abstract play of shapes and color","Glowing techno orbs"];
 
 var index = 0;
 var countdown = 4; // seconds
