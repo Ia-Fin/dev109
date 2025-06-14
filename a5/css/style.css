@@ -8,7 +8,7 @@ body {
 }
 
 p {
-  line-height: 1.5;
+  	line-height: 1.5;
 }
 
 #slideshow {
@@ -41,8 +41,8 @@ button {
 	background-color: #e87900;
 	color: black;
 	cursor: pointer;
-  min-width: 44px; 
-  min-height: 44px;
+ 	min-width: 44px; 
+	min-height: 44px;
 	transition: background-color 0.3s;
 }
 
@@ -51,10 +51,12 @@ button:hover {
 }
 
 .validators {
-  display: flex;
+  	display: flex;
 	justify-content: center;
 	padding: 70px 0; 
-  gap: 1.3em;
+	min-width: 44px; 
+ 	min-height: 44px;
+  	gap: 1.3em;
 }
 
 #timer {
@@ -62,7 +64,7 @@ button:hover {
 	top: 10px;
 	left: 10px;
 	background-color: #e87900;
-  color: black;
+  	color: black;
 	padding: 5px 15px;
 	border-radius: 6px;
 	box-shadow: 0 0 5px rgba(0,0,0,0.2);
