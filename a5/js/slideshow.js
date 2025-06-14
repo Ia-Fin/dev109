@@ -1,4 +1,4 @@
-var myImages =["https://ia-fin.github.io/dev109/a5/images/cube.jpg", "https://ia-fin.github.io/dev109/a5/images/glass.jpg","https://ia-fin.github.io/dev109/a5/images/pyramid.jpg","https://ia-fin.github.io/dev109/a5/images/shapes.jpg","https://ia-fin.github.io/dev109/a5/images/sphere.jpg"];
+var myImages =["images/cube.jpg", "images/glass.jpg","images/pyramid.jpg","images/shapes.jpg","images/sphere.jpg"];
 
 
 var captionImages =["CUBE","GLASS","PRYAMID","SHAPES","SPHERE"];
